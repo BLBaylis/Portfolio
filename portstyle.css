@@ -100,14 +100,26 @@ body, html {
 	height : 100%;
 }
 
-h1 {
-	font-size : 80px;
-	text-align: center;
+.border {
+	border : solid;
 }
 
-h2 {
+.heading {
+	font-size : 80px;
+	text-align: center;
+	margin : 2% 0;
+}
+
+.tagline {
 	font-size: 40px;
 	text-align: center;
+	padding : 2% 0;
+	width : 20%;
+	margin : 0 auto;
+}
+
+.tagline:first-child {
+	border-bottom: solid;
 }
 
 .about {
@@ -117,12 +129,13 @@ h2 {
 	color : steelblue;
 }
 
-
 .personal-projects {
 	height : 100%;
 	background: steelblue;
 }
 
 .display-pic {
+	display : block;
 	border-radius : 50%;
+	margin : 5% auto 3%;
 }
