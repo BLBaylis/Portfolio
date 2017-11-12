@@ -99,6 +99,7 @@ table {
 body, html {
 	height : 100%;
 	text-align  :center;
+	background : steelblue;
 }
 
 .border {
@@ -112,11 +113,11 @@ body, html {
 	border : solid;
 	height : 7.5%;
 	color : white;
-	background : black;
-	border-color: black;
+	background : #f90;
+	border-color: #f90;
 }
 
-.heading {
+.name-heading {
 	font-size : 80px;
 	text-align: center;
 	margin : 4vh 0;
@@ -131,19 +132,23 @@ body, html {
 }
 
 .tagline:first-child {
-	border-bottom: solid;
+	border-bottom: solid #f90;
 }
 
-.about {
+.landing {
 	background: red;
 	height : 90%;
-	background : white;
-	color : steelblue;
+	background : steelblue;
+	color : white;
+}
+
+.fa-chevron-down {
+	color : #f90;
 }
 
 .personal-projects {
 	height : 100%;
-	background: steelblue;
+	background: #f90;
 }
 
 .display-pic {
@@ -151,4 +156,21 @@ body, html {
 	border-radius : 50%;
 	margin : 12vh auto 4.5vh;
 	height : 30vh;
+}
+
+.about {
+	background: white;
+	height : 80%;
+	color: #f90;
+}
+
+.sub-heading {
+	font-size: 60px;
+	padding : 3vh;
+}
+
+.bio {
+	margin : 0 15%;
+	font-size : 30px;
+	text-align : justify;
 }
