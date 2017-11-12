@@ -113,9 +113,16 @@ h2 {
 .about {
 	background: red;
 	height : 100%;
+	background : white;
+	color : steelblue;
 }
+
 
 .personal-projects {
 	height : 100%;
 	background: steelblue;
+}
+
+.display-pic {
+	border-radius : 50%;
 }
