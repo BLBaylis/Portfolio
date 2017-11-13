@@ -115,6 +115,7 @@ body, html {
 	color : white;
 	background : #f90;
 	border-color: #f90;
+	z-index : 2;
 }
 
 .name-heading {
@@ -147,8 +148,12 @@ body, html {
 }
 
 .personal-projects {
+	display: flex;
 	height : 100%;
-	background: #f90;
+	background: steelblue;
+	color : white;
+	padding : 3vh 0;
+
 }
 
 .display-pic {
@@ -159,9 +164,12 @@ body, html {
 }
 
 .about {
-	background: white;
-	height : 80%;
-	color: #f90;
+	padding : 3vh 0;
+	height : 100%;
+	position : relative;
+	overflow: : hidden;
+	background : white;
+	color : #f90;
 }
 
 .sub-heading {
@@ -170,7 +178,13 @@ body, html {
 }
 
 .bio {
-	margin : 0 15%;
+	margin : 6vh 25% 6vh 12.5%;
+	width: 80%;
 	font-size : 30px;
 	text-align : justify;
+}
+
+.svg {
+	height : 15%;
+	width  :15%;
 }
