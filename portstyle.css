@@ -98,7 +98,7 @@ table {
 
 body, html {
 	height : 100%;
-	text-align  :center;
+	text-align  : center;
 	background : steelblue;
 }
 
@@ -111,7 +111,7 @@ body, html {
 	position : fixed;
 	top : 0;
 	border : solid;
-	height : 7.5%;
+	height : 8.33%;
 	color : white;
 	background : #f90;
 	border-color: #f90;
@@ -119,17 +119,22 @@ body, html {
 }
 
 .name-heading {
-	font-size : 80px;
+	height : 8.33%;
+	font-size : 25px;
 	text-align: center;
-	margin : 4vh 0;
+	margin : 4.165% 0;
+}
+
+.tagline-div {
+	font-size: 20px;
+	text-align: center;
+	height : 16.66%;
+	width : 50%;
+	margin : 0 auto;
 }
 
 .tagline {
-	font-size: 40px;
-	text-align: center;
-	padding : 2vh 0;
-	width : 20%;
-	margin : 0 auto;
+	padding : 2.77%;
 }
 
 .tagline:first-child {
@@ -137,8 +142,7 @@ body, html {
 }
 
 .landing {
-	background: red;
-	height : 90%;
+	height : 100%;
 	background : steelblue;
 	color : white;
 }
@@ -159,8 +163,9 @@ body, html {
 .display-pic {
 	display : block;
 	border-radius : 50%;
-	margin : 12vh auto 4.5vh;
-	height : 30vh;
+	/*margin : 12vh auto 4.5vh;*/
+	margin : 16.66% auto 0;
+	height : 33%;
 }
 
 .about {
@@ -173,14 +178,14 @@ body, html {
 }
 
 .sub-heading {
-	font-size: 60px;
+	font-size: 20px;
 	padding : 3vh;
 }
 
 .bio {
 	margin : 6vh 25% 6vh 12.5%;
 	width: 80%;
-	font-size : 30px;
+	font-size : 20px;
 	text-align : justify;
 }
 
