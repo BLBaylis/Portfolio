@@ -195,6 +195,10 @@ body, html {
 	padding-bottom : 3vh;
 }
 
+.project-tab {
+	text-align : left;
+}
+
 footer {
 	background : #f90;
 	color : white;
