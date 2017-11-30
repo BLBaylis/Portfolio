@@ -3,17 +3,29 @@
   <head>
   	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   	<link rel = "stylesheet" href = "portstyle.css" type = "text/css">
   	<meta charset = "utf-8">
-    <meta name="viewport" content="width=device-width">
-  	<title>Bootstrap Tings</title>
+    <meta name="viewport" content=content="width=device-width, initial-scale=1.0">
+    <script src = "portfolio.js"></script>
+  	<title>Bradley Baylis</title>
   </head>
   <body>
+    <div class = "main-navbar">
+      <button>Bradley Baylis</button>
+      <div class="menu">
+        <button onclick="myFunction()" class="dropdown-btn">Menu  <i class = "fa fa-caret-down"></i></button>
+        <div id="dropdown-links-div" class="dropdown-links-div">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Projects</a>
+        </div>
+      </div>
+    </div>
   	<header class = "landing">
-  		<div class = "navbar-sub">I will be a navbar!</div>
   		<img class = "display-pic" src="https://raw.githubusercontent.com/BLBaylis/Portfolio/master/pic.png">
   		<div class = "name-heading">
-  			<h1 >Bradley Baylis</h1>
+  			<h1>Bradley Baylis</h1>
   		</div>
         <h3 class = "tagline">Aspiring Coder</h3>
         <h3 class = "tagline">Learner</h3>
@@ -32,14 +44,43 @@
       <img class = "svg" src="climbing.svg">
     </section>
     <section class = "personal-projects">
-  		<h1 class = "sub-heading">Personal Projects</h1>
-      <button class = "project-tab">Project 1</button>
-      <button class = "project-tab">Project 1</button>
-      <button class = "project-tab">Project 1</button>
-      <button class = "project-tab">Project 1</button>
-      <button class = "project-tab">Project 1</button>
-     <img class = "project" src = "calcscreenshot.png" width = "172" height = "223">
-
+      <div class = "subheading-div">
+  		  <h1 class = "sub-heading">Personal Projects</h1>
+      </div>
+      <div class = "project-nav-bar">
+        <ul>
+          <li><a class = "project-nav-item" href="#">Project 1</a></li>
+          <li><a class = "project-nav-item" href="#">Project 2</a></li>
+          <li><a class = "project-nav-item" href="#">Project 3</a></li>
+          <li><a class = "project-nav-item" href="#">Project 4</a></li>
+          <li><a class = "project-nav-item" href="#">Project 5</a></li>
+          <li><a class = "project-nav-item" href="#">Project 6</a></li>
+        </ul>
+      </div>
+      <div class = "img default">
+          Screenshots coming soon
+          <br>SCREENSHOT 1
+      </div>
+      <div class = "img">
+          Screenshots coming soon
+          <br>SCREENSHOT 2
+      </div>
+      <div class = "img">
+          Screenshots coming soon
+          <br>SCREENSHOT 3
+      </div>
+      <div class = "img">
+          Screenshots coming soon
+          <br>SCREENSHOT 4
+      </div>
+      <div class = "img">
+          Screenshots coming soon
+          <br>SCREENSHOT 5
+      </div>
+      <div class = "img">
+          Screenshots coming soon
+          <br>SCREENSHOT 6
+      </div>
   	</section>
   </body>
   <footer>
