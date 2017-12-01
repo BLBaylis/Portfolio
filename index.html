@@ -3,7 +3,7 @@
   <head>
   	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   	<link rel = "stylesheet" href = "portstyle.css" type = "text/css">
   	<meta charset = "utf-8">
     <meta name="viewport" content=content="width=device-width, initial-scale=1.0">
@@ -16,35 +16,35 @@
       <div class="menu">
         <button onclick="myFunction()" class="dropdown-btn">Menu  <i class = "fa fa-caret-down"></i></button>
         <div id="dropdown-links-div" class="dropdown-links-div">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
         </div>
       </div>
     </div>
-  	<header class = "landing">
-  		<img class = "display-pic" src="https://raw.githubusercontent.com/BLBaylis/Portfolio/master/pic.png">
-  		<div class = "name-heading">
-  			<h1>Bradley Baylis</h1>
-  		</div>
-        <h3 class = "tagline">Aspiring Coder</h3>
-        <h3 class = "tagline">Learner</h3>
-        <i class = "fa fa-chevron-down fa-4x" aria-hidden = "true"></i>
-  	</header>
-  	<section class = "about">
+    <header class = "landing" id = "home">
+      <img class = "display-pic" src="https://raw.githubusercontent.com/BLBaylis/Portfolio/master/pic.png">
+        <h1>Bradley Baylis</h1>
+        <h2>Coder</h2>    
+          <div id = "sub-heading-divider"></div>      
+        <h2>Learner</h2>
+    </header>
+    <section class = "about" id = "about">
       <h2 class = "sub-heading">About Me</h2>
       <p class = "bio">Hi, I'm Brad and I'm from Essex in the UK.  I've always been interested in many different topics, especially maths, philosophy and science.
        </p>
-      <p class = "bio"> What I didn't realise as a boy was this stemmed from a general enjoyment of learning new things and this passion led me to achieve a bachelor's degree in Mathematics with the Open University, which is a distance learning university. 
+      <p class = "bio"> What I didn't consciously realise until my late teenage years was that this stemmed from a general enjoyment of learning new things and this passion led me to achieve a bachelor's degree in Mathematics with the Open University, which is a distance learning university. 
       </p> 
       <p class="bio">The same desire to learn has led me down the path of self-taught web-developer!  Some other interests of mine include gaming, running, climbing and cycling.</p>
-      <img class = "svg" src="study.svg">
-      <img class = "svg" src="gamepad.svg">
-      <img class = "svg" src="running.svg">
-      <img class = "svg" src="climbing.svg">
+      <div class = "svg-div">
+        <img class = "svg" src="student.svg">
+        <img class = "svg" src="gamepad.svg">
+        <img class = "svg" src="running.svg">
+        <img class = "svg" src="climbing.svg">
+      </div>
     </section>
-    <section class = "personal-projects">
-        <h1 class = "sub-heading">Personal Projects</h1>
+    <section class = "personal-projects" id = "projects">
+        <h2 class = "sub-heading">Projects</h2>
       <div class = "project-nav-bar">
         <ul>
           <li><button class = "project-nav-item" href="#">Project 1</button></li>
@@ -81,7 +81,4 @@
       </div>
     </section>
   </body>
-  <footer>
-    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-  </footer>
 </html>
