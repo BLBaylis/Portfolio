@@ -1,3 +1,5 @@
+//Main Nav Bar
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -17,4 +19,39 @@ window.onclick = function(event) {
       }
     }
   }
+}
+
+//Side nav-bar
+
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+
+function sideNavBar() {
+
+  function openNav() {
+    document.getElementById("project-nav-bar").style.left = "0";
+    open = true;
+  }
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+    document.getElementById("project-nav-bar").style.left = "-33%";
+    open = false;
+  }
+
+  if (!open){
+    console.log(open);
+    openNav();
+    console.log(open);
+  } else {
+    console.log(open);
+    closeNav();
+    console.log(open);
+  }
+
+}
+
+var open = false;
+
+function btnDefault () {
+  document.getElementById("btn-default").removeAttribute("id");
 }

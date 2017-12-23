@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  	<link rel = "stylesheet" href = "portstyle.css" type = "text/css">
-  	<meta charset = "utf-8">
+    <link rel = "stylesheet" href = "portstyle.css" type = "text/css">
+    <meta charset = "utf-8">
     <meta name="viewport" content=content="width=device-width, initial-scale=1.0">
     <script src = "portfolio.js"></script>
-  	<title>Bradley Baylis</title>
+    <title>Bradley Baylis</title>
   </head>
   <body>
     <div class = "main-navbar">
@@ -43,42 +43,38 @@
         <img class = "svg" src="climbing.svg">
       </div>
     </section>
-    <section class = "personal-projects" id = "projects">
-        <h2 class = "sub-heading">Projects</h2>
-      <div class = "project-nav-bar">
+    <section class = "personal-projects">
+      <div class = "project-nav-bar" id = "project-nav-bar">
         <ul>
-          <li><button class = "project-nav-item" href="#">Project 1</button></li>
-          <li><button class = "project-nav-item" href="#">Project 2</button></li>
-          <li><button class = "project-nav-item" href="#">Project 3</button></li>
-          <li><button class = "project-nav-item" href="#">Project 4</button></li>
-          <li><button class = "project-nav-item" href="#">Project 5</button></li>
-          <li><button class = "project-nav-item" href="#">Project 6</button></li>
+          <li><button onclick="btnDefault()" class = "project-nav-item" id = "btn-default" href="#">Project 1</button></li>
+          <li><button onclick="btnDefault()" class = "project-nav-item" href="#">Project 2</button></li>
+          <li><button onclick="btnDefault()" class = "project-nav-item" href="#">Project 3</button></li>
+          <li><button onclick="btnDefault()" class = "project-nav-item" href="#">Project 4</button></li>
+          <li><button onclick="btnDefault()" class = "project-nav-item" href="#">Project 5</button></li>
+          <li><button onclick="btnDefault()" class = "project-nav-item" href="#">Project 6</button></li>
         </ul>
       </div>
-      <div class = "img default">
-          Screenshots coming soon
-          <br>SCREENSHOT 1
+      <div onclick="sideNavBar()" class = "menu-icon-container">
+        <div class = "menu-icon"></div>
+        <div class = "menu-icon"></div>
+        <div class = "menu-icon"></div>
       </div>
-      <div class = "img">
-          Screenshots coming soon
-          <br>SCREENSHOT 2
+      <h2 class = "sub-heading">Projects</h2>
+      <div class = "placeholder-shown">
       </div>
-      <div class = "img">
-          Screenshots coming soon
-          <br>SCREENSHOT 3
+      <div class = "placeholder-hidden">
       </div>
-      <div class = "img">
-          Screenshots coming soon
-          <br>SCREENSHOT 4
+      <div class = "placeholder-hidden">
       </div>
-      <div class = "img">
-          Screenshots coming soon
-          <br>SCREENSHOT 5
+      <div class = "placeholder-hidden">
       </div>
-      <div class = "img">
-          Screenshots coming soon
-          <br>SCREENSHOT 6
+      <div class = "placeholder-hidden">
+      </div>
+      <div class = "placeholder-hidden">
       </div>
     </section>
+    <footer>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/eleonor-wang" title="Eleonor Wang">Eleonor Wang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </footer>
   </body>
 </html>
