@@ -124,6 +124,10 @@ body, html {
 	cursor: pointer;
 }
 
+.main-navbar button:focus, .main-navbar div:focus, .main-navbar a:focus {
+	outline:none;
+}
+
 .menu {
     display : block;
     height : 100%;
@@ -303,8 +307,8 @@ h2 {
     height : 100%;
     width  : 100%;
     color : white;
-	border : none;
 	background-color: #002571;
+	border : none;
 }
 
 .personal-projects button:hover {
@@ -312,15 +316,12 @@ h2 {
 }
 
 .personal-projects button:focus, .personal-projects button:active {
-	background-color : #f90;
-	color : white;
-	border : none;
+	outline : none;
 }
 
-#btn-default {
+#activeBtn {
 	background-color : #f90;
 	color : white;
-	border : none;	
 }
 
 .placeholder-shown {

@@ -52,6 +52,10 @@ function sideNavBar() {
 
 var open = false;
 
-function btnDefault () {
-  document.getElementById("btn-default").removeAttribute("id");
+function activeBtn (btn) {
+  var arr = document.getElementsByClassName("project-nav-item");
+  for (var i = 0; i < arr.length; i++){
+    arr[i].id = "";
+  }
+  btn.id = "activeBtn";
 }
