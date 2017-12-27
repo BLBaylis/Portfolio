@@ -23,18 +23,24 @@ window.onclick = function(event) {
 
 //Side nav-bar
 
-/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-
 function sideNavBar() {
 
   function openNav() {
     document.getElementById("project-nav-bar").style.left = "0";
+    document.getElementsByClassName("menu-open-icon")[0].style.display = "none";
+    document.getElementsByClassName("menu-open-icon")[1].style.display = "none";
+    document.getElementsByClassName("menu-open-icon")[2].style.display = "none";
+    document.getElementsByClassName("menu-close-icon")[0].style.display = "initial";
     open = true;
   }
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+
   function closeNav() {
     document.getElementById("project-nav-bar").style.left = "-33%";
+    document.getElementsByClassName("menu-open-icon")[0].style.display = "flex";
+    document.getElementsByClassName("menu-open-icon")[1].style.display = "flex";
+    document.getElementsByClassName("menu-open-icon")[2].style.display = "flex";
+    document.getElementsByClassName("menu-close-icon")[0].style.display = "none";
     open = false;
   }
 

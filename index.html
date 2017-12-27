@@ -12,15 +12,9 @@
   </head>
   <body>
     <div class = "main-navbar">
-      <button>Bradley Baylis</button>
-      <div class="menu">
-        <button onclick="myFunction()" class="dropdown-btn">Menu <i class = "fa fa-caret-down"></i></button>
-        <div id="dropdown-links-div" class="dropdown-links-div">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-        </div>
-      </div>
+        <a class = "btn-small" href="#home">HOME</a>
+        <a class = "btn-small" href="#about">ABOUT</a>
+        <a class = "btn-small" href="#projects">PROJECTS</a>
     </div>
     <header class = "landing" id = "home">
       <img class = "display-pic" src="https://raw.githubusercontent.com/BLBaylis/Portfolio/master/pic.png">
@@ -28,14 +22,14 @@
         <h2>Coder</h2>    
           <div id = "sub-heading-divider"></div>      
         <h2>Learner</h2>
+        <dir id ="about"></dir>
     </header>
-    <section class = "about" id = "about">
+    <section class = "about">
       <h2 class = "sub-heading">About Me</h2>
-      <p class = "bio">Hi, I'm Brad and I'm from Essex in the UK.  I've always been interested in many different topics, especially maths, philosophy and science.
-       </p>
-      <p class = "bio"> What I didn't consciously realise until my late teenage years was that this stemmed from a general enjoyment of learning new things and this passion led me to achieve a bachelor's degree in Mathematics with the Open University, which is a distance learning university. 
-      </p> 
-      <p class="bio">The same desire to learn has led me down the path of self-taught web-developer!  Some other interests of mine include gaming, running, climbing and cycling.</p>
+      <p class="bio">Hi, I'm Brad from London and I'm an aspiring web developer.</p>  
+      <p class="bio">From a young age I've been repeatedly asked what I want to be when I grow up (not so much these days!).  I could never give them an answer, because I simply didn't know.  My hobbies back then didn't lend themselves well to a career because I was and still am a gamer and the games I played were video games, a bit of chess and sports, especially football.  As much as I enjoyed them I would never be talented enough  to even consider making them into a career and I knew that even back then.  I continued my education and was forced to narrow down my subjects and specialise all the way up until finally I was doing a Maths degree with the Open University at 16 years old, doing the first 2 years alongside my A-levels.  Yet, I still didn't know what I wanted to be.</p>
+      <p class = "bio">The Open University doesn't have a campus and there were no classes due to it being based online.  Thus it fell to me to structure my own learning process with only the textbooks provided.  5 years later at the ripe old age of 21, I emerged from the other side of the process with a 2:1 in mathematics, but in truth I gained something worth even more than the piece of paper and that is the ability to learn and the strong desire to do so.</p>  
+      <p class = "bio">I feel that with my love of the internet and its culture, it was a natural fit for me to pursue a career in web development and I'm teaching myself to code.  Currently, I'm working on mastering HTML, CSS, Javascript and jQuery, while in my spare time playing games, running, rockclimbing and cycling.  My background in maths is certainly helping me with the logic of coding greatly and I'm enjoying the creative but challenging outlet of design.  Let's see what the future holds!</p>
       <div class = "svg-div">
         <img class = "svg" src="student.svg">
         <img class = "svg" src="gamepad.svg">
@@ -43,7 +37,40 @@
         <img class = "svg" src="climbing.svg">
       </div>
     </section>
-    <section class = "personal-projects">
+    <section class = "personal-projects" id = "projects">
+      <div onclick="sideNavBar()" class = "menu-open-icon-container">
+        <div class = "menu-open-icon"></div>
+        <div class = "menu-open-icon"></div>
+        <div class = "menu-open-icon"></div>  
+        <svg class = "menu-close-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="100%" height="100%">
+          <g>
+            <g>
+              <path d="M505.943,6.058c-8.077-8.077-21.172-8.077-29.249,0L6.058,476.693c-8.077,8.077-8.077,21.172,0,29.249    C10.096,509.982,15.39,512,20.683,512c5.293,0,10.586-2.019,14.625-6.059L505.943,35.306    C514.019,27.23,514.019,14.135,505.943,6.058z" fill="#FFFFFF"/>
+            </g>
+          </g>
+          <g>
+            <g>
+              <path d="M505.942,476.694L35.306,6.059c-8.076-8.077-21.172-8.077-29.248,0c-8.077,8.076-8.077,21.171,0,29.248l470.636,470.636    c4.038,4.039,9.332,6.058,14.625,6.058c5.293,0,10.587-2.019,14.624-6.057C514.018,497.866,514.018,484.771,505.942,476.694z" fill="#FFFFFF"/>
+            </g>
+          </g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+        </svg>
+      </div>
+      <h2 class = "sub-heading">Projects</h2>
       <div class = "project-nav-bar" id = "project-nav-bar">
         <ul>
           <li><button onclick="activeBtn(this)" class = "project-nav-item 1" id = "activeBtn" href="#">Project 1</button></li>
@@ -54,12 +81,6 @@
           <li><button onclick="activeBtn(this)" class = "project-nav-item 6" id = "" href="#">Project 6</button></li>
         </ul>
       </div>
-      <div onclick="sideNavBar()" class = "menu-icon-container">
-        <div class = "menu-icon"></div>
-        <div class = "menu-icon"></div>
-        <div class = "menu-icon"></div>
-      </div>
-      <h2 class = "sub-heading">Projects</h2>
       <div class = "placeholder-shown">
       </div>
       <div class = "placeholder-hidden">
