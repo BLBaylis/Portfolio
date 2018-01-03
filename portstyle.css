@@ -235,123 +235,49 @@ h2 {
 /*Personal Projects section*/
 
 .personal-projects {
-	position : relative;
 	height : 93.75%;
 	background: #1976d2;
 	color : white;
 	padding-bottom: 3vh;
 }
 
-.menu-icon-container {
-	display : flex;
-	flex-flow : column;
-	justify-content : space-around;
-	position : absolute;
-	top : 2.75%;
-	left : 5%;
-	width : 6vh;
-	height : 6vh;
+.container {
 	float : left;
-}
-
-.menu-icon-container:hover .menu-icon {
-    background: #f90;
-    border : #f90;
-}
-
-.menu-icon {
-	border : solid 1px;
-	width : 100%;
-	height : 12.5%;
-	background-color : white;
-}
-
-.menu-icon-animate1 {
-	transform : translateY(350%) rotate(45deg);
-}
-
-.menu-icon-animate2 {
-	transform : translateY(250%) rotate(-45deg);
-}
-
-.project-nav-bar {
-	position : absolute;
-	top : 11vh;
-	left : -33%;
-	height : 83%;
+	height : 33%;
 	width : 33%;
-	z-index : 1;
-	background-color: black;
-	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-	transition: transform 200ms cubic-bezier(0.42, 0, 0.85, 1.27);
+	background-color : #1976d2;
+	border : solid;
+	padding : 0;
+	transition : transform 300ms ease-in-out;
 }
 
-.nav-animate {
-	transform : translateX(90%);
+.calculator-main {
+	transition: height 300ms ease-in-out;
+	height : 1%;
+	overflow : hidden;
 }
 
-.personal-projects ul {
-    width: 100%;
-    height : 100%;
-} 
-
-.personal-projects li{
-	height : 16.66%;
+h3 {
+	font-size : 20px;
 }
 
-
-.personal-projects button {
-	padding-left : 10%;
-    display: block;
-    height : 100%;
-    width  : 100%;
-    color : white;
-	background-color: #002571;
-	border : none;
+.mob-img {
+	height : 30%;
 }
 
-.personal-projects button:hover {
-	color : #f90;
+.img {
+	height : 100%;
+	width : 100%;
 }
 
-.personal-projects button:focus, .personal-projects button:active {
-	outline : none;
-}
-
-#activeBtn {
-	background-color : #f90;
-	color : white;
-}
-
-.placeholder-shown {
-	position: relative;
-	height : 85%;
-	width : 90%;
-	margin : auto;
-	background-color: white;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-}
-
-.placeholder-hidden {
-	position: relative;
-	display : none;
-	height : 85%;
-	width : 90%;
-	border :solid;
-	margin : auto;
-	background-color: white;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-}
 
 /*Footer*/
 
 footer {
-	position: relative;
-	background-color : #002571;
+	background-color : #004ba0;
 	color : white;
 	border : none;
 	padding : 2vh 0;
-	box-shadow: 0 -6px 20px 0 rgba(0, 0, 0, 0.19), 0 -8px 17px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer div {
