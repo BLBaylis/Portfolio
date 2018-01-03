@@ -31,7 +31,10 @@ function sideNavBar() {
     closeNav();
 
   }
+}
 
+function scroll () {
+  window.scrollBy(0, 1000);
 }
 
   var open = false;
@@ -43,4 +46,17 @@ function activeBtn (btn) {
     arr[i].id = "";
   }
   btn.id = "activeBtn";
+}
+
+function pls() {
+  var scaleFactor = 1.5;
+  var projectsHeight = 93.75 * scaleFactor + "%";
+  var subheadingHeight = 12.5 * 1/scaleFactor + "%";
+  var containerHeight = 33 * 1/scaleFactor + "%";
+  document.getElementsByClassName("personal-projects")[0].style.height = projectsHeight;
+  document.getElementsByClassName("sub-heading")[1].style.height = subheadingHeight;
+  document.getElementsByClassName("calculator-main")[0].style.height = "50%";
+  for (var i = 0; i < document.getElementsByClassName("container").length; i++){
+    document.getElementsByClassName("container")[i].style.height = containerHeight;
+  }
 }
