@@ -253,7 +253,7 @@ h2 {
 
 .calculator-main {
 	transition: height 300ms ease-in-out;
-	height : 1%;
+	height : 0%;
 	overflow : hidden;
 }
 
