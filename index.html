@@ -1,85 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel = "stylesheet" href = "portstyle.css" type = "text/css">
-    <meta charset = "utf-8">
-    <meta name="viewport" content=content="width=device-width, initial-scale=1.0">
-    <script src = "portfolio.js"></script>
-    <title>Bradley Baylis</title>
-  </head>
-  <body>
-    <div class = "main-navbar">
-        <a class = "btn-small" href="#home">HOME</a>
-        <a class = "btn-small" href="#about">ABOUT</a>
-        <a class = "btn-small" href="#projects-marker">PROJECTS</a>
-    </div>
-    <header class = "landing" id = "home">
-      <img class = "display-pic" src="https://raw.githubusercontent.com/BLBaylis/Portfolio/master/pic.png">
-        <h1>Bradley Baylis</h1>
-        <h2>Coder</h2>    
-          <div id = "sub-heading-divider"></div>      
-        <h2>Learner</h2>
-        <dir id ="about"></dir>
-    </header>
-    <section class = "about">
-      <h2 class = "sub-heading">About Me</h2>
-      <p class="bio">Hi, I'm Brad from London and I'm an aspiring web developer.</p>  
-      <p class="bio">From a young age I've been repeatedly asked what I want to be when I grow up (not so much these days!).  I could never give them an answer, because I simply didn't know.  My hobbies back then didn't lend themselves well to a career because I was and still am a gamer and the games I played were video games, a bit of chess and sports, especially football.  As much as I enjoyed them I would never be talented enough  to even consider making them into a career and I knew that even back then.  I continued my education and was forced to narrow down my subjects and specialise all the way up until finally I was doing a Maths degree with the Open University at 16 years old, doing the first 2 years alongside my A-levels.  Yet, I still didn't know what I wanted to be.</p>
-      <p class = "bio">The Open University doesn't have a campus and there were no classes due to it being based online.  Thus it fell to me to structure my own learning process with only the textbooks provided.  5 years later at the ripe old age of 21, I emerged from the other side of the process with a 2:1 in mathematics, but in truth I gained something worth even more than the piece of paper and that is the ability to learn and the strong desire to do so.</p>  
-      <p class = "bio">I feel that with my love of the internet and its culture, it was a natural fit for me to pursue a career in web development and I'm teaching myself to code.  Currently, I'm working on mastering HTML, CSS, Javascript and jQuery, while in my spare time playing games, running, rockclimbing and cycling.  My background in maths is certainly helping me with the logic of coding greatly and I'm enjoying the creative but challenging outlet of design.  Let's see what the future holds!</p>
-      <div class = "svg-div">
-        <img class = "svg" src="student.svg">
-        <img class = "svg" src="gamepad.svg">
-        <div id = "projects-marker"></div>
-        <img class = "svg" src="running.svg">
-        <img class = "svg" src="climbing.svg">
-      </div>
-    </section>
-    <section class = "personal-projects"  id = "projects">
-      <h2 class = "sub-heading">Projects</h2>
-      <div onclick = "calcClose()" class = "calculator-main" id = "hidden">
-        <h3>Calculator</h3>
-        <img class = "mob-img" src="calculator all.png">
-      </div>
-      <div onclick = "calcOpen()" class = "container">
-        <img class = "img" src="calc ipad port.png">
-      </div>
-      <div onclick = "calcClose()" class = "container"></div>
-      <div onclick = "calcClose()" class = "container"></div>
-      <div onclick = "calcClose()" class = "container"></div>
-      <div onclick = "calcClose()" class = "container"></div>
-      <div onclick = "calcClose()" class = "container"></div>
-    </section>
-    <footer>
-      © Bradley Baylis 2017
-      <div>
-        <a class = "linkedin" href="https://uk.linkedin.com" target = "_blank"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;" xml:space="preserve">
-          <g>
-            <path id="LinkedIn" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707   c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21   v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824   C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463   c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z    M5.477,420.56h92.184v-277.32H5.477V420.56z" fill="#FFFFFF"/>
-          </g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-          <g></g>
-        </svg></span>
-      </a>          
-        <img src="email.svg"><span> : bradleybaylis@hotmail.com</span>
-      </div>
-      Icons made by <a class = "credit-link" href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, <a class = "credit-link" href="http://www.freepik.com" title="Freepik">Freepik</a>, <a class = "credit-link" href="https://www.flaticon.com/authors/eleonor-wang" title="Eleonor Wang">Eleonor Wang</a>, <a class = "credit-link" href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a>, <a class = "credit-link" href="https://www.flaticon.com/authors/yannick" title="Yannick">Yannick</a> from <a class = "credit-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a class = "credit-link"href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-    </footer>
-  </body>
+<head>
+	<title>Bradley Baylis</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="portstyle.css">
+	<script src="https://use.fontawesome.com/dee45a8958.js"> </script>
+	<script src = "portscript.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class = "landing">
+		<h1 class = "heading">Hey, I'm Brad!</h1>
+		<h3>I am</h3>
+		<div class = "checklist">
+			<ul>
+				<li>A front end web developer</li>
+				<i class="fa fa-check"></i>
+				<li>Passionate about the Web</li>
+				<i class="fa fa-check"></i>
+				<li>Adaptable</li><br>
+				<i class="fa fa-check"></i>
+				<li class = "margin-bottom-0">Looking for full-time<br>
+				employment</li>
+				<i class="fa fa-check margin-top-3vh"></i>
+			</ul>
+		</div>
+		<h3>I can code with</h3>
+		<div class = "checklist">
+			<ul>
+				<li>HTML</li><i class="fa fa-check"></i>
+				<li>CSS</li><i class="fa fa-check"></i>
+				<li>Javascript</li><i class="fa fa-check"></i>
+				<li>jQuery</li><i class="fa fa-check"></i>
+			</ul>
+		</div>
+		<h4>Find out more!</h4>
+		<i class = "fa fa-chevron-down"></i>
+	</div>
+	<div class = "about">
+		<h2>About me</h2>
+		<p>My name is Bradley Baylis and I am from London, England.  I'm a self-taught web developer, having learnt after finishing my Bachelor's degree in Maths and I hope to splash out into back end development in the future.  In the future I intend to learn more front-end technologies starting with React as well as <span class = "bold">whatever you need me to learn!</span></p>
+		<p>In my spare time I enjoy gaming, rock-climbing, running and film watching!
+			
+		</p>
+	</div>
+	<div class = "projects">
+		<h2>Personal Projects</h2>
+		<p class = "projects-tagline">Responsively designed personal projects made with the glorious trinity of HTML, CSS and Javascript!</p>
+		<div class = "row">
+			<div class = "project calculator">
+				<h3 class = "card-title">Calculator</h3>
+				<a href = "https://blbaylis.github.io/Calculator"><img class = "img calculator-img" src="calculator all.png"></a>
+				<a class = "project-link" href="https://blbaylis.github.io/Calculator">Check it out!</a>
+			</div>
+			<div class = "project twitch">
+				<h3 class = "card-title">Twitch.Tv Helper Tool</h3>
+				<a href = "https://blbaylis.github.io/Twitch-Tool"><img class = "img twitch-img" src="twitch all.png"></a>
+				<a class = "project-link" href="https://blbaylis.github.io/Calculator">Check it out!</a>
+			</div>
+			<div class = "project tictactoe">
+				<h3 class = "card-title">Tic-Tac-Toe Game</h3>
+				<a href = "https://blbaylis.github.io/tic-tac-toe"><img class = "img tictactoe-img" src="tictactoe all.png"></a>
+				<a class = "project-link" href="https://blbaylis.github.io/Calculator">Check it out!</a>
+			</div>
+			<div class = "project pomodoro">
+				<h3 class = "card-title">Pomodoro Timer</h3>
+				<a href = "https://blbaylis.github.io/pomodoro-timer"><img class = "img pomodoro-img" src="pomodoro all.png"></a>
+				<a class = "project-link" href="https://blbaylis.github.io/Calculator">Check it out!</a>
+			</div>
+			<div class = "project simon-says">
+				<h3 class = "card-title">Simon Says Game</h3>
+				<h4 class = "card-title">Coming soon!</h4>
+			</div>
+		</div>
+	</div>
+	<div class = "contact">
+		<h2>Get in touch!</h2>
+		<h6>Check out my social media</h6>
+		<div class = "social-media-div">
+			<div class = "logo-div codepen">
+				<a href = "https://codepen.io/BLBaylis/"><img class = "logo" src="codepen logo.png"></a>
+			</div>
+			<div class = "logo-div github">
+				<a href = "https://github.com/BLBaylis"><img class = "logo" src="github logo.png"></a>
+			</div>
+			<div class = "logo-div linkedin">
+				<a href = ""><img class = "logo" src="linkedIn logo.png"></a>
+			</div>
+		</div>
+		<h6 class = "margin2vh">Or shoot me an email at</h6>
+		<h5 class = "margin2vh">bradleybaylis@hotmail.com</h5>
+	</div>
+	<footer><span>&#169; Bradley Baylis 2018</span></footer>
+</body>
 </html>
