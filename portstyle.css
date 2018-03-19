@@ -106,16 +106,16 @@ ul i {
 
 p {
 	width : 90%;
-	max-width : 600px;
+	max-width : 900px;
 	margin : 2vh auto;
-	text-align : justify;
+	text-align : center;
 }
 
 footer {
 	display : flex;
 	justify-content: center;
 	align-items: center;
-	background-color : #FF3A20;
+	background-color: #1D3461;
 	height : 50px;
 	color : #fff;
 }
@@ -162,6 +162,10 @@ footer {
 	text-align : center;
 	color : #fff;
 	background-color: #F7B801
+}
+
+.projects p {
+	max-width : 600px;
 }
 
 .projects-tagline {
