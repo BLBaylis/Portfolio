@@ -106,6 +106,7 @@ ul i {
 
 p {
 	width : 90%;
+	max-width : 600px;
 	margin : 2vh auto;
 	text-align : justify;
 }
@@ -120,6 +121,9 @@ footer {
 }
 
 .landing {
+	display : flex;
+	flex-direction: column;
+	justify-content: space-around;
 	height : 100%;
 	text-align : center;
 	background-color : #fff;
@@ -129,6 +133,7 @@ footer {
 .checklist {
 	display : inline-block;
 	width : 75%;
+	max-width : 500px;
 	margin : 1.5vh auto;
 }
 
@@ -171,15 +176,18 @@ footer {
 	display : flex;
 	flex-flow : row wrap;
 	justify-content : space-around;
+	max-width : 1200px;
+	margin : 0 auto;
 }
 
 .project {
 	color : #F7B801;
 	background-color : #fff;
 	width : 90%;
+	max-width : 500px;
 	box-shadow: 0 3px 6px rgba(0, 0, 0 ,0.16), 0 3px 6px rgba(0, 0, 0 ,0.23);
 	transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
-	margin : 3vh;
+	margin : 3vh 0;
 	padding : 30px 0;
 }
 
@@ -213,13 +221,24 @@ footer {
 }
 
 .simon-says {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	color : #F7B801;
 	background-color : #fff;
 	width : 90%;
 	box-shadow: 0 3px 6px rgba(0, 0, 0 ,0.16), 0 3px 6px rgba(0, 0, 0 ,0.23);
 	transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
-	margin : 3vh auto 6vh;
 	padding : 30px 0;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.simon-card-title {
+	position : absolute;
 }
 
 .contact {
@@ -235,6 +254,8 @@ footer {
 	justify-content: space-around;
 	height : 25vw;
 	margin : 3vh auto;
+	max-height : 125px;
+	max-width: 500px;
 }
 
 .logo-div {
@@ -245,4 +266,62 @@ footer {
 .logo {
 	height : 100%;
 	width : 100%;
+}
+
+@media (min-width : 600px) {
+
+	h1 {
+		display : inline-block;
+		font-size : 45px;
+		font-weight : 900;
+		margin : 3vh 0;
+	}
+
+	h2 {
+		display : inline-block;
+		font-size : 41px;
+		font-weight : 800;
+		margin : 3vh;
+	}
+
+	h3 {
+		font-size : 37px;
+		font-weight : 700;
+	}
+
+	h4 {
+		font-size : 32px;
+		font-weight : 500;
+	}
+
+	h5 {
+		font-size : 30px;
+		font-weight : 400;
+	}
+
+	h6 {
+		font-size : 27px;
+		font-weight: 200;
+		}
+
+	li, p, a {
+		font-size : 23px;
+	} 
+
+}
+
+@media (min-width : 1800px) {
+	
+	.row {
+		max-width : 1600px;
+	}
+
+	.pomodoro {
+		margin-left : 16.5%;
+	}
+
+	.simon-says {
+		margin-right : 16.5%;
+	}
+
 }
