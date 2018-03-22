@@ -58,7 +58,6 @@ h1 {
 	display : inline-block;
 	font-size : 38px;
 	font-weight : 900;
-	margin : 3vh 0;
 }
 
 h2 {
@@ -121,9 +120,10 @@ footer {
 }
 
 .landing {
-	display : flex;
-	flex-direction: column;
-	justify-content: space-around;
+	display : grid;
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-columns: auto;
+	align-items : center;
 	height : 100%;
 	text-align : center;
 	background-color : #fff;
@@ -134,7 +134,7 @@ footer {
 	display : inline-block;
 	width : 75%;
 	max-width : 500px;
-	margin : 1.5vh auto;
+	margin : 0 auto;
 }
 
 .margin-top-3vh {
@@ -278,7 +278,6 @@ footer {
 		display : inline-block;
 		font-size : 45px;
 		font-weight : 900;
-		margin : 3vh 0;
 	}
 
 	h2 {
@@ -306,9 +305,9 @@ footer {
 	h6 {
 		font-size : 27px;
 		font-weight: 200;
-		}
+	}
 
-	li, p, a {
+	li, p, a, .checklist i {
 		font-size : 23px;
 	} 
 
@@ -320,11 +319,10 @@ footer {
 		max-width : 1200px;
 	}
 
-		h1 {
+	h1 {
 		display : inline-block;
 		font-size : 55px;
 		font-weight : 900;
-		margin : 3vh 0;
 	}
 
 	h2 {
@@ -354,8 +352,8 @@ footer {
 		font-weight: 200;
 		}
 
-	li, p, a {
-		font-size : 33px;
+	li, p, a, .checklist i {
+		font-size : 31px;
 	} 
 
 }
@@ -374,4 +372,29 @@ footer {
 		margin-right : 16.5%;
 	}
 
+}
+
+@media (orientation : landscape) {
+
+	.landing {
+		grid-template-rows: auto auto auto;
+		grid-template-columns: 1fr 1fr;
+
+	}
+
+	h1 {
+		grid-column : 1/3;
+	}
+
+	h3 {
+		grid-row : 2/3;
+	}
+
+	.checklist {
+		grid-row: 3/4;
+	}
+
+	.find-out-more {
+		grid-column : 1/3;
+	}
 }
